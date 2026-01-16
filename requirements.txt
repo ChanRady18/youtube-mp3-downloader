@@ -1,6 +1,0 @@
-###### PC Must have ffmpeg file 
-flask
-yt-dlp
-gunicorn
-
-#### the playlist on youtube should be public
