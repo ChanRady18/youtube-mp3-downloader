@@ -68,6 +68,7 @@ def download_videos_mp3(video_urls):
                 'preferredcodec': 'mp3',
                 'preferredquality': '192',
             }],
+            'cookiefile': 'cookies.txt',
         }
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             try:
